@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Projeto base</title>
+</head>
+
+<body>
+
+    <header>
+        <a id="Topo-da-pagina"></a>
+        <h1>Conceitos Html</h1>
+    </header>
+
+    <main>
+        <h1>texto h1</h1>
+        <h2>texto h2</h2>
+        <h3>texto h3</h3>
+        <h4>texto h4</h4>
+        <h5>texto h5</h5>
+        <h6>texto h6</h6>
+        <a id="segundo"></a>
+
+        <p>Exeplo de parágrafo 1</p>
+        <p>Exemplo de parágrafo 2</p>
+
+        <!-- prettier-ignore para deixar dar quebra de lnha -->
+        <p>Exemplo de parágrafo 3</p>
+
+        <ol>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ol>
+        <ul>
+            <li>item 1 </li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+
+        <table>
+            <caption>Tecnologia Web</caption>
+            <thead>
+                <tr>
+                    <th>Tipo</th>
+                    <th>Descrição</th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>HTML</td>
+                    <td>Hyper Text Markup</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Cascadiing Style Sheets</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Também conhecido como ECMASript</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total de Tecnologia</td>
+                    <td>3</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <!-- Adcionando imagem-->
+        <img width="300" src="./img/rush.jpg" alt="Rush">
+
+        <!-- Adcionando imagem estruturando a imagem , organiza melhor a imagem -->
+        <figure>
+            <figcaption>Banda Rush</figcaption>
+            <img width="300" src="./img/rush.jpg" alt="Rush">
+        </figure>
+        <!-- Criação de DIV , não pode usar muito pois os deficientes visuais terão problema-->
+        <p>
+            <!-- Deixa em blocos -->
+            <div>Exemplo de div 1</div>
+            <div>Exemplo de div 2</div>
+
+        </p>
+        <!-- O span deixa lado a lado , ele é não blocante -->
+        <p>
+            <span>Exemplo de span 1</span>
+            <span>Exemplo de span 2</span>
+
+        </p>
+
+        <p><a href="#Topo-da-pagina">Voltar ao topo da página</a></p>
+        <p><a href="#segundo">Voltar depois do h6</a></p>
+        <!-- Criando link para outra página -->
+        <a href="./conteudo.html">Outra página</a>
+        <!-- Indo para outra página na web-->
+        <a href="https://www.google.com.br/">Ir para o Google</a>
+
+        <!-- o uso do target faz o site abrir em outra aba-->
+        <a href="https://www.google.com.br/" target="_blank">Ir para o Google</a>
+
+        <!--Criação de um botão-->
+        <p>
+            <button>Clique aqui</button>
+        </p>
+        <!--Criação de uma caixa de texto-->
+        <p>
+            <input type="text">
+        </p>
+    </main>
+
+
+    <script defer src="./js/script.js">
+    </script>
+</body>
+
+</html>

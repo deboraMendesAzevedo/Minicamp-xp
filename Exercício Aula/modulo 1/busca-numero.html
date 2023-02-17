@@ -1,0 +1,24 @@
+<html>
+<script>
+    /*
+                                1 - Receber um número como parametro
+                                2 - execultar um for na lista e para cada elemento verificar se é o número buscado
+                                3 - Quando encontrar , interromper a execução e retornar true
+                                4 - Se chegar até o fim retornar falso 
+                                */
+    var lista = [19, 24, 34, 1, 10, 23];
+
+    // usando break para parar de verificar quando achar o número 
+    function verificaNumero(numero) {
+        var existe = false;
+        for (var i = 0; i < lista.length; i++) {
+            if (lista[i] === numero) {
+                existe = true;
+                break;
+            }
+        }
+        return existe;
+    }
+</script>
+
+</html>

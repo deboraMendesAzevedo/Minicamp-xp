@@ -1,0 +1,61 @@
+<html>
+<script>
+    var carros = ["Gol", "Palio", "Uno"];
+    console.log(carros);
+
+    // para ver o primeiro elemento da lista 
+    var primeiroCarro = carros[0];
+
+    // para ver o segundo elemento da lista
+    var segundoCarro = carros[1];
+
+    // para ver o terceiro elemento da lista 
+    var terceiroCarro = carros[2];
+
+    // Para ver qualquer elemento [n]
+
+    console.log("Primeiro carro " + primeiroCarro);
+    console.log("Segundo carro " + segundoCarro);
+    console.log("Terceiro carro " + terceiroCarro);
+
+    console.log("fazendo direto com a posição")
+    console.log("Primeira posição " + carros[0])
+
+    // alterar elemento da lista 
+    carros[2] = "Argo";
+    console.log("Alterando elemento da lista terceira posição " + carros[2]);
+
+    // Consultando o tamanho do array ou seja, mostrando a quantidade de elementos
+    console.log("Tamanho do array " + carros.length);
+
+    // para buscar o último elemento do array
+    console.log("Ùltimo elemento do array " + carros[carros.length - 1]);
+
+    // para incluir novo elemento 
+    carros[3] = "Sandeiro";
+    console.log("Inclusão de novo elemento da lista " + carros[3]);
+    console.log("Nova lista " + carros);
+
+    // caso não saiba qual é a última posição
+    carros[carros.length] = "Civic";
+    console.log("Inclusão de novo elemento da lista " + carros[carros.length - 1]);
+    console.log("Nova lista " + carros);
+
+    // incluindo um elemento da lista pela função push
+    carros.push("Polo");
+    console.log("Nova lista " + carros);
+
+    // para remover o último elemento da lista função pop 
+    console.log(carros.pop());
+    console.log("Nova lista " + carros);
+
+    // para adicionar o primeiro elemento da lista use a função unshift
+    carros.unshift("Jetta");
+    console.log("Nova lista " + carros);
+
+    // para remover o primeiro elemento da lista use a função shift
+    console.log(carros.shift());
+    console.log("Nova lista " + carros);
+</script>
+
+</html>

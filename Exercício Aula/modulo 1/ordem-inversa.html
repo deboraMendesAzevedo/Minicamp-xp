@@ -1,0 +1,36 @@
+<html>
+<script>
+    // Criar uma função que recebe um parametro
+    // retornar a palavra invertida 
+
+    /*
+    1 - Receber uma palavra como parametro
+    2 - Criar uma variavel temporaria para armazenar o resultado
+    3 - Iterar a palavra de tras para frente, armazenando letra por letra na variável temporária 
+    4 - Retornar a variavel temporária 
+    */
+
+
+    function ordemInversa(palavra) {
+        var palavraInvertida = "";
+        for (var i = palavra.length - 1; i >= 0; i--) {
+            console.log(palavra[i]);
+            palavraInvertida = palavraInvertida + palavra[i];
+        }
+        return palavraInvertida;
+    }
+
+    // usando o while
+    function ordemInversaW(palavraW) {
+        var palavraInvertidaW = "";
+        var i = palavraW.length - 1;
+        while (i >= 0) {
+            console.log(palavraW[i]);
+            palavraInvertidaW = palavraInvertidaW + palavraW[i];
+            i--;
+        }
+        return palavraInvertidaW;
+    }
+</script>
+
+</html>
